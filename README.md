@@ -1,19 +1,20 @@
 
-# Book Scraper using Scrapy
+# 📚🕷 Python Book Scraper using Scrapy 📚🕷
 
 This is a web scraping project built with Scrapy, a Python framework for extracting data from websites. The purpose of this project is to scrape information about romance books from the website "http://books.toscrape.com" through XPath technology and retrieve details such as book titles, prices, availability, and cover images.
-
 
 ## Prerequisites
 
 - Python 3.x
 - Scrapy library
+
 ## Installation
 
 1. Clone the repository:
 
-ADD LINK TO THE REPO!!!!
-
+```bash
+git clone https://github.com/santidore/Book-Scraper/
+```
 2. Install the required dependencies using pip:
 
 ```bash
@@ -31,14 +32,12 @@ cd bookscraper
 ```
 5. Copy the file `books_scraper.py` into the "spiders" directory of your Scrapy project.
 
-
-
-    
 ## Configuration
 
 - The spider's starting URL is set to the romance books category page on "http://books.toscrape.com".
 - The spider uses XPath selectors to extract relevant data from the website's HTML structure.
 - Pagination is supported, and the spider will automatically navigate to the next page to scrape more data.
+  
 ## Running the program
 1. Run the spider to start scraping using the following command:
 
@@ -46,7 +45,6 @@ cd bookscraper
 scrapy crawl romance_books_spider -o romance_books.json
 ```
 2. You should now be able to find the obtained results in a .json file named romance_books.json located in the bookscraper directory!
-
 
 ## Example .json file
 ```json
