@@ -1,7 +1,7 @@
 
 # 📚🕷 Python Book Scraper using Scrapy 📚🕷
 
-This is a web scraping project built with Scrapy, a Python framework for extracting data from websites. The purpose of this project is to scrape information about romance books from the website "http://books.toscrape.com" through XPath technology and retrieve details such as book titles, prices, availability, and cover images.
+This is a web scraping project built with Scrapy, a Python framework for extracting data from websites. The purpose of this project is to scrape information about romance books from the website "http://books.toscrape.com" through XPath selectors and retrieve details such as book titles, prices, availability, and cover images.
 
 ## Prerequisites
 
